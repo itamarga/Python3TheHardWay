@@ -8,7 +8,7 @@ print("We can just give the function numbers directly:")
 cheese_and_crackers(20, 30)
 
 print("OR, we can use variables from our script:")
-amount_of_cheese = 10
+amount_of_cheese = 10 
 amount_of_crackers = 50
 
 cheese_and_crackers(amount_of_cheese, amount_of_crackers)
