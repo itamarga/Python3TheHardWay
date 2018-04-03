@@ -8,7 +8,7 @@ def main(language_file, encoding, errors):
         return main(language_file, encoding, errors)
 
 def print_line(line, encoding, errors):
-    next_lang = line#.strip()
+    next_lang = line[:8] + line[8:]
     # raw_bytes = line.encode(encoding, errors=errors)
     cooked_string = next_lang.decode(encoding, errors=errors)
     # byte_file.write(raw_bytes)
