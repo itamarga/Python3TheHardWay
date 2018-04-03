@@ -12,7 +12,6 @@ def print_line(line, encoding, errors):
     # raw_bytes = line.encode(encoding, errors=errors)
     cooked_string = next_lang.decode(encoding, errors=errors)
     # byte_file.write(raw_bytes)
-    line = line.remove(0)
 
     print(line, "<===>", cooked_string)
     # print(next_lang)
